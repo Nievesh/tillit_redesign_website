@@ -1,0 +1,41 @@
+module.exports = {
+  content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
+  corePlugins: { preflight: true },
+  theme: {
+    extend: {
+      colors: {
+        "aquamarine-blue": "var(--aquamarine-blue)",
+        equator: "var(--equator)",
+      },
+      fontFamily: {
+        "fraunces-regular": "var(--fraunces-regular-font-family)",
+        "fraunces-semibold": "var(--fraunces-semibold-font-family)",
+        "jetbrains-mono-bold": "var(--jetbrains-mono-bold-font-family)",
+        "jetbrains-mono-regular": "var(--jetbrains-mono-regular-font-family)",
+        "segoe-UI-bold": "var(--segoe-UI-bold-font-family)",
+        "segoe-UI-bold-upper": "var(--segoe-UI-bold-upper-font-family)",
+        "segoe-UI-regular": "var(--segoe-UI-regular-font-family)",
+        "semantic-cell-upper": "var(--semantic-cell-upper-font-family)",
+        "semantic-data": "var(--semantic-data-font-family)",
+        "semantic-heading-1": "var(--semantic-heading-1-font-family)",
+        "semantic-heading-2": "var(--semantic-heading-2-font-family)",
+        "semantic-heading-3": "var(--semantic-heading-3-font-family)",
+        "semantic-heading-4": "var(--semantic-heading-4-font-family)",
+        "semantic-link": "var(--semantic-link-font-family)",
+        "semantic-small": "var(--semantic-small-font-family)",
+        "semantic-small-upper": "var(--semantic-small-upper-font-family)",
+        "semantic-strong": "var(--semantic-strong-font-family)",
+        "semantic-textarea": "var(--semantic-textarea-font-family)",
+        "work-sans-bold": "var(--work-sans-bold-font-family)",
+        "work-sans-bold-upper": "var(--work-sans-bold-upper-font-family)",
+        "work-sans-medium": "var(--work-sans-medium-font-family)",
+        "work-sans-regular": "var(--work-sans-regular-font-family)",
+        "work-sans-regular-upper": "var(--work-sans-regular-upper-font-family)",
+        "work-sans-semibold": "var(--work-sans-semibold-font-family)",
+        "work-sans-semibold-upper":
+          "var(--work-sans-semibold-upper-font-family)",
+      },
+    },
+  },
+  plugins: [],
+};

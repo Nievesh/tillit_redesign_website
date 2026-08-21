@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-transparent border-0 outline-none;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .all-unset {
+    all: unset;
+  }
+}
+
+:root {
+  --aquamarine-blue: rgba(127, 200, 224, 1);
+  --equator: rgba(227, 169, 107, 1);
+  --fraunces-regular-font-family: "Fraunces", Helvetica;
+  --fraunces-regular-font-size: 18px;
+  --fraunces-regular-font-style: normal;
+  --fraunces-regular-font-weight: 400;
+  --fraunces-regular-letter-spacing: 0px;
+  --fraunces-regular-line-height: 18px;
+  --fraunces-semibold-font-family: "Fraunces", Helvetica;
+  --fraunces-semibold-font-size: 32px;
+  --fraunces-semibold-font-style: normal;
+  --fraunces-semibold-font-weight: 600;
+  --fraunces-semibold-letter-spacing: 0px;
+  --fraunces-semibold-line-height: 32px;
+  --jetbrains-mono-bold-font-family: "JetBrains Mono", Helvetica;
+  --jetbrains-mono-bold-font-size: 16px;
+  --jetbrains-mono-bold-font-style: normal;
+  --jetbrains-mono-bold-font-weight: 700;
+  --jetbrains-mono-bold-letter-spacing: 0px;
+  --jetbrains-mono-bold-line-height: normal;
+  --jetbrains-mono-regular-font-family: "JetBrains Mono", Helvetica;
+  --jetbrains-mono-regular-font-size: 11.5px;
+  --jetbrains-mono-regular-font-style: normal;
+  --jetbrains-mono-regular-font-weight: 400;
+  --jetbrains-mono-regular-letter-spacing: 0px;
+  --jetbrains-mono-regular-line-height: 19.549999237060547px;
+  --segoe-UI-bold-font-family: "Segoe UI", Helvetica;
+  --segoe-UI-bold-font-size: 18px;
+  --segoe-UI-bold-font-style: normal;
+  --segoe-UI-bold-font-weight: 700;
+  --segoe-UI-bold-letter-spacing: 0px;
+  --segoe-UI-bold-line-height: 38.400001525878906px;
+  --segoe-UI-bold-upper-font-family: "Segoe UI", Helvetica;
+  --segoe-UI-bold-upper-font-size: 13.600000381469727px;
+  --segoe-UI-bold-upper-font-style: normal;
+  --segoe-UI-bold-upper-font-weight: 700;
+  --segoe-UI-bold-upper-letter-spacing: 0.6800000071525574px;
+  --segoe-UI-bold-upper-line-height: 21.760000228881836px;
+  --segoe-UI-regular-font-family: "Segoe UI", Helvetica;
+  --segoe-UI-regular-font-size: 13.600000381469727px;
+  --segoe-UI-regular-font-style: normal;
+  --segoe-UI-regular-font-weight: 400;
+  --segoe-UI-regular-letter-spacing: 0px;
+  --segoe-UI-regular-line-height: 21.760000228881836px;
+  --semantic-cell-upper-font-family: "Work Sans", Helvetica;
+  --semantic-cell-upper-font-size: 10.5px;
+  --semantic-cell-upper-font-style: normal;
+  --semantic-cell-upper-font-weight: 600;
+  --semantic-cell-upper-letter-spacing: 0.9449999928474426px;
+  --semantic-cell-upper-line-height: normal;
+  --semantic-data-font-family: "Work Sans", Helvetica;
+  --semantic-data-font-size: 13.5px;
+  --semantic-data-font-style: normal;
+  --semantic-data-font-weight: 600;
+  --semantic-data-letter-spacing: 0px;
+  --semantic-data-line-height: normal;
+  --semantic-heading-1-font-family: "Segoe UI", Helvetica;
+  --semantic-heading-1-font-size: 44.400001525878906px;
+  --semantic-heading-1-font-style: normal;
+  --semantic-heading-1-font-weight: 700;
+  --semantic-heading-1-letter-spacing: -0.8960000276565552px;
+  --semantic-heading-1-line-height: 51.52000045776367px;
+  --semantic-heading-2-font-family: "Segoe UI", Helvetica;
+  --semantic-heading-2-font-size: 35.20000076293945px;
+  --semantic-heading-2-font-style: normal;
+  --semantic-heading-2-font-weight: 700;
+  --semantic-heading-2-letter-spacing: 0px;
+  --semantic-heading-2-line-height: 56.31999969482422px;
+  --semantic-heading-3-font-family: "Fraunces", Helvetica;
+  --semantic-heading-3-font-size: 15px;
+  --semantic-heading-3-font-style: normal;
+  --semantic-heading-3-font-weight: 600;
+  --semantic-heading-3-letter-spacing: 0px;
+  --semantic-heading-3-line-height: normal;
+  --semantic-heading-4-font-family: "Segoe UI", Helvetica;
+  --semantic-heading-4-font-size: 15.899999618530273px;
+  --semantic-heading-4-font-style: normal;
+  --semantic-heading-4-font-weight: 700;
+  --semantic-heading-4-letter-spacing: 0px;
+  --semantic-heading-4-line-height: 25.600000381469727px;
+  --semantic-link-font-family: "Work Sans", Helvetica;
+  --semantic-link-font-size: 12.5px;
+  --semantic-link-font-style: normal;
+  --semantic-link-font-weight: 600;
+  --semantic-link-letter-spacing: 0px;
+  --semantic-link-line-height: normal;
+  --semantic-small-font-family: "Segoe UI", Helvetica;
+  --semantic-small-font-size: 13.199999809265137px;
+  --semantic-small-font-style: normal;
+  --semantic-small-font-weight: 400;
+  --semantic-small-letter-spacing: 0px;
+  --semantic-small-line-height: 21.329999923706055px;
+  --semantic-small-upper-font-family: "Segoe UI", Helvetica;
+  --semantic-small-upper-font-size: 13.300000190734863px;
+  --semantic-small-upper-font-style: normal;
+  --semantic-small-upper-font-weight: 400;
+  --semantic-small-upper-letter-spacing: 0px;
+  --semantic-small-upper-line-height: 21.329999923706055px;
+  --semantic-strong-font-family: "Segoe UI", Helvetica;
+  --semantic-strong-font-size: 14.300000190734863px;
+  --semantic-strong-font-style: normal;
+  --semantic-strong-font-weight: 700;
+  --semantic-strong-letter-spacing: 0px;
+  --semantic-strong-line-height: 23px;
+  --semantic-textarea-font-family: "Work Sans", Helvetica;
+  --semantic-textarea-font-size: 13.5px;
+  --semantic-textarea-font-style: normal;
+  --semantic-textarea-font-weight: 400;
+  --semantic-textarea-letter-spacing: 0px;
+  --semantic-textarea-line-height: 20.25px;
+  --work-sans-bold-font-family: "Work Sans", Helvetica;
+  --work-sans-bold-font-size: 15px;
+  --work-sans-bold-font-style: normal;
+  --work-sans-bold-font-weight: 700;
+  --work-sans-bold-letter-spacing: 0px;
+  --work-sans-bold-line-height: normal;
+  --work-sans-bold-upper-font-family: "Work Sans", Helvetica;
+  --work-sans-bold-upper-font-size: 10.5px;
+  --work-sans-bold-upper-font-style: normal;
+  --work-sans-bold-upper-font-weight: 700;
+  --work-sans-bold-upper-letter-spacing: 0.5249999761581421px;
+  --work-sans-bold-upper-line-height: normal;
+  --work-sans-medium-font-family: "Work Sans", Helvetica;
+  --work-sans-medium-font-size: 12.5px;
+  --work-sans-medium-font-style: normal;
+  --work-sans-medium-font-weight: 500;
+  --work-sans-medium-letter-spacing: 0px;
+  --work-sans-medium-line-height: normal;
+  --work-sans-regular-font-family: "Work Sans", Helvetica;
+  --work-sans-regular-font-size: 14.5px;
+  --work-sans-regular-font-style: normal;
+  --work-sans-regular-font-weight: 400;
+  --work-sans-regular-letter-spacing: 0px;
+  --work-sans-regular-line-height: normal;
+  --work-sans-regular-upper-font-family: "Work Sans", Helvetica;
+  --work-sans-regular-upper-font-size: 10.5px;
+  --work-sans-regular-upper-font-style: normal;
+  --work-sans-regular-upper-font-weight: 400;
+  --work-sans-regular-upper-letter-spacing: 1.4700000286102295px;
+  --work-sans-regular-upper-line-height: normal;
+  --work-sans-semibold-font-family: "Work Sans", Helvetica;
+  --work-sans-semibold-font-size: 13.5px;
+  --work-sans-semibold-font-style: normal;
+  --work-sans-semibold-font-weight: 600;
+  --work-sans-semibold-letter-spacing: 0px;
+  --work-sans-semibold-line-height: 17.549999237060547px;
+  --work-sans-semibold-upper-font-family: "Work Sans", Helvetica;
+  --work-sans-semibold-upper-font-size: 14.5px;
+  --work-sans-semibold-upper-font-style: normal;
+  --work-sans-semibold-upper-font-weight: 600;
+  --work-sans-semibold-upper-letter-spacing: 2.319999933242798px;
+  --work-sans-semibold-upper-line-height: normal;
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
